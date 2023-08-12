@@ -1,0 +1,71 @@
+/* GENERAL STYLE */
+
+* {
+    margin: 0px;
+    padding: 0px
+}
+
+.container {
+    margin: 0px auto;
+    border-color: red;
+    border: 10px;
+
+    width: 90%; /* Example: Container takes 90% of the viewport width */
+    max-width: 1200px; /* Set a maximum width to prevent overly wide layouts */
+    padding: 20px; /* Add padding for spacing */
+}
+
+
+/* NAV BAR  */
+
+nav {
+    border: 5px solid black;
+    padding: 15px;
+}
+
+
+/* MAIN BODY  */
+
+/* SECTION ONE - ME */
+.about_me {
+    display: flex; /* Use flexbox to create columns */
+    border: 5px solid blue;
+    height: auto; /* Adjust as needed */
+    max-width: 100%; /* Make sure the container doesn't exceed the screen width */
+}
+
+.about_content {
+    flex: 1; /* Take up remaining space in the flex container */
+}
+
+.about_image {
+    display: flex; /* Nested flex container for the image */
+    align-items: center; /* Center the image vertically */
+}
+
+.headshot {
+    width: 500px;
+    height: auto; /* Maintain aspect ratio */
+    max-width: 100%; /* Ensure image doesn't exceed container */
+    border-radius: 100%;
+}
+
+/* SECTION TWO - SKILLS */
+.skills {
+    border: 5px solid violet;
+}
+
+
+/* SECTION THREE - PROJECTS */
+.projects {
+    border: 5px solid yellow;
+    height: 500px;
+}
+
+
+
+/* SECTION FOUR - MORE ABOUT ME */
+.just_me {
+    border: 5px solid hotpink;
+    height: 500px;
+}
