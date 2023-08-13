@@ -67,5 +67,16 @@ nav {
 /* SECTION FOUR - MORE ABOUT ME */
 .just_me {
     border: 5px solid hotpink;
-    height: 500px;
+}
+
+.scroll-container {
+    background-color: #333;
+    overflow: auto;
+    white-space: nowrap;
+    padding: 5px;
+}
+
+.scroll-container img {
+    padding: 10px;
+    height: 400px;
 }
