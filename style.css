@@ -108,6 +108,7 @@ h1 {
     }
 }
 
+
 /* SECTION THREE - PROJECTS */
 .projects {
     border: 5px solid yellow;
@@ -116,8 +117,8 @@ h1 {
 
 .project-container {
     display: flex; 
-    flex-wrap: wrap; /* Allow items to wrap to a new line if needed */
-    margin-bottom: 20px; /* Add margin between sections */
+    flex-wrap: wrap; 
+    margin-bottom: 20px; 
 }
 
 .project-text {
@@ -128,6 +129,7 @@ h1 {
 .project-image {
     flex: 1; /* Take up 1/3 of the available space */
     padding: 10px; 
+    border-radius: 100%;
 }
 
 /* Responsive Image */
