@@ -8,19 +8,27 @@
 
 .container {
     margin: 0px auto;
-    border-color: red;
     border: 10px;
 
     width: 90%; /* Example: Container takes 90% of the viewport width */
     max-width: 1200px; /* Set a maximum width to prevent overly wide layouts */
     padding: 20px; /* Add padding for spacing */
+
+    
 }
+
+body {
+    background-image: url('/images/pexels-nick-collins-3144221.jpg');
+    background-size: cover; /* Ensure the image covers the entire background */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+}
+
 
 
 /* NAV BAR  */
 
 nav {
-    border: 5px solid black;
+    /* border: 5px solid black; */
     padding: 15px;
 }
 
@@ -30,8 +38,9 @@ nav {
 /* SECTION ONE - ME */
 .about_me {
     display: flex; /* Use flexbox to create columns */
-    border: 5px solid blue;
-    height: auto; /* Adjust as needed */
+    /* border: 5px solid blue; */
+    background-color:rgba(240, 255, 255, 0.7);
+    height: auto; 
     max-width: 100%; /* Make sure the container doesn't exceed the screen width */
 }
 
@@ -61,7 +70,8 @@ h1 {
 
 /* SECTION TWO - SKILLS */
 .skills {
-    border: 5px solid violet;
+    /* border: 5px solid violet; */
+    background-color:rgba(240, 255, 255, 0.7);
     padding: 20px; /* Adding some padding for spacing */
 }
 
@@ -111,7 +121,8 @@ h1 {
 
 /* SECTION THREE - PROJECTS */
 .projects {
-    border: 5px solid yellow;
+    /* border: 5px solid yellow; */
+    background-color:rgba(240, 255, 255, 0.7);
     padding: 20px; 
 }
 
@@ -140,7 +151,8 @@ h1 {
 
 /* SECTION FOUR - MORE ABOUT ME */
 .just_me {
-    border: 5px solid hotpink;
+    /* border: 5px solid hotpink; */
+    background-color:rgba(240, 255, 255, 0.7);
     padding: 20px; /* Adding some padding for spacing */
 }
 
